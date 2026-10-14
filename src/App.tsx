@@ -79,7 +79,7 @@ export default function App() {
         )
       }
 
-      contexto.fillStyle = '#22c55e'
+      contexto.fillStyle = '#1e88e5'
       cobraRef.current.forEach((segmento) => {
         contexto.fillRect(
           segmento.x * TAMANHO_CELULA,
